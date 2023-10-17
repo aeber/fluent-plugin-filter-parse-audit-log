@@ -3,14 +3,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fluent_plugin_filter_parse_audit_log/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fluent-plugin-filter-parse-audit-log'
+  spec.name          = 'fluent-plugin-filter-dgi-parse-audit-log'
   spec.version       = FluentPluginFilterParseAuditLog::VERSION
-  spec.authors       = ['winebarrel']
-  spec.email         = ['sugawara@winebarrel.jp']
+  spec.authors       = ['winebarrel', 'aeber']
+  spec.email         = ['']
 
   spec.summary       = %q{Fluentd Filter Plugin to parse linux's audit log.}
   spec.description   = %q{Fluentd Filter Plugin to parse linux's audit log.}
-  spec.homepage      = 'https://github.com/winebarrel/fluent-plugin-filter-parse-audit-log'
+  spec.homepage      = 'https://github.com/dg-i/fluent-plugin-filter-parse-audit-log'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.

@@ -3,14 +3,13 @@
 Fluentd Filter Plugin to parse [linux's audit log](https://github.com/linux-audit/audit-documentation/wiki).
 
 [![Gem Version](https://badge.fury.io/rb/fluent-plugin-filter-parse-audit-log.svg)](http://badge.fury.io/rb/fluent-plugin-filter-parse-audit-log)
-[![Build Status](https://travis-ci.org/winebarrel/fluent-plugin-filter-parse-audit-log.svg?branch=master)](https://travis-ci.org/winebarrel/fluent-plugin-filter-parse-audit-log)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'fluent-plugin-filter-audit-log'
+gem 'fluent-plugin-filter-dgi-audit-log'
 ```
 
 And then execute:
@@ -19,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install fluent-plugin-filter-audit-log
+    $ gem install fluent-plugin-filter-dgi-audit-log
 
 ## Configuration
 
@@ -89,6 +88,6 @@ echo '{"message":"type=SYSCALL msg=audit(1364481363.243:24287): arch=c000003e sy
 
 ## Related Links
 
-* https://github.com/winebarrel/audit_log_parser
+* https://github.com/dg-i/audit_log_parser
 * [7.6. Understanding Audit Log Files - Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sec-understanding_audit_log_files)
 * [SPEC Writing Good Events · linux-audit/audit-documentation Wiki](https://github.com/linux-audit/audit-documentation/wiki/SPEC-Writing-Good-Events)
